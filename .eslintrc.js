@@ -16,15 +16,16 @@ module.exports = {
 
   // We modify the linting rules from the base for some specific things.
   rules: {
-     "no-bitwise": 0, 
-     "no-param-reassign": ["error", { props: false }],
-     "curly":["error","multi"],
-     "n/file-extension-in-import":"off" ,
-     "no-void":"off",
-     "isaacscript/no-void-return-type":"off",
-     "unicorn/prefer-top-level-await":"off",
-     "isaacscript/no-mutable-return":"off",
-     "isaacscript/prefer-readonly-parameter-types":"off",
-     "@typescript-eslint/no-explicit-any":["warn",{ignoreRestArgs:true}]
+    "no-bitwise": 0,
+    "no-param-reassign": ["error", { props: false }],
+    curly: ["error", "multi"],
+    "n/file-extension-in-import": "off",
+    "no-void": "off",
+    "isaacscript/no-void-return-type": "off",
+    "unicorn/prefer-top-level-await": "off",
+    "isaacscript/no-mutable-return": "off",
+    "isaacscript/prefer-readonly-parameter-types": "off",
+    "@typescript-eslint/no-explicit-any": ["warn", { ignoreRestArgs: true }],
+    "isaacscript/no-object-any": "off",
   },
 };
